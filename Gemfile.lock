@@ -1,0 +1,50 @@
+PATH
+  remote: .
+  specs:
+    pb_and_j (0.0.1)
+      serving_seconds
+
+GEM
+  remote: https://www.rubygems.org/
+  specs:
+    cane (3.0.0)
+      parallel
+    diff-lcs (1.3)
+    gems (1.0.0)
+      json
+    json (2.0.3)
+    parallel (1.10.0)
+    rake (12.0.0)
+    rake_tasks (5.0.0)
+      rake
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    serving_seconds (0.0.1)
+    travis-yaml (0.2.0)
+    wwtd (1.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cane
+  gems
+  pb_and_j!
+  rake_tasks
+  rspec
+  travis-yaml
+  wwtd
+
+BUNDLED WITH
+   1.12.5

@@ -1,0 +1,8 @@
+--color
+--no-doc
+--style-measure 80
+--abc-max 9
+--abc-glob {rakefile,Gemfile,*.gemspec,{lib,spec}/**/*.{rb,rake,example}}
+--style-glob {rakefile,Gemfile,*.gemspec,{lib,spec}/**/*.{rb,rake,example}}
+
+--abc-exclude PBAndJ::ProgressBar#humanize_seconds
