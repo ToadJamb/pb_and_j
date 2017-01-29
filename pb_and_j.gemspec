@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.version       = '0.0.1'
   spec.authors       = ['Travis Herrick']
   spec.email         = ['tthetoad@gmail.com']
-  spec.summary       = 'Progress Bar and Just that'
+  spec.summary       = 'Progress Bar and just that'
   spec.description   = '
     An adjustable rate progress bar that does not monkey patch Ruby objects
   '.strip
